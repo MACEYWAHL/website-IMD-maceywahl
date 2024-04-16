@@ -91,12 +91,15 @@ footer {
 
 /***Layout***/
 
-.container{
+.container {
     background-color: rgb(238, 236, 230);
     display: grid;
     gap: 0.25rem;
     grid-template-columns: repeat(12, 1fr);
     width: min(95%, 75rem);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container > * {
@@ -166,3 +169,8 @@ footer {
     }
 }
 
+/* CONTACT PAGE */
+
+.contact-form {
+    text-align: center;
+}

@@ -61,9 +61,9 @@ nav a:hover {
 
 .why-care  {
     color: rgb(47, 15, 15);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 1rem;
-    margin: 1rem;
+    font-family: "Kalam", cursive;
+    padding: 2rem;
+    margin: 2rem;
 }
 
 .milo_green {
@@ -76,8 +76,10 @@ nav a:hover {
 
 h2 {
     color: rgb(40, 25, 7);
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 2rem;
+    font-family: "Kalam", cursive;
+    text-align: center;
 }
 
 .warning {
@@ -90,13 +92,17 @@ h2 {
     font-family: "Kalam", cursive;
 }
 
+
+p {
+    font-family: "Kalam", cursive;
+    padding: 1rem;
+}
+
 .card {
     text-align: center;
     margin: 1rem;
     padding-bottom: 2rem;
     list-style: none; 
-    
-
 }
 
 .col-span-3 .card {
@@ -110,6 +116,18 @@ h2 {
     font-family: "Kalam", cursive;
 }
 
+/***Diet CSS***/
+
+.Resource {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Kalam", cursive;
+    padding: 2rem;
+    background-color: rgb(251, 255, 240);
+}
+
+
+  /*****************************************/  
 
 footer {
     padding-top: 0px;
@@ -119,9 +137,7 @@ footer {
 
 }
 
-.container > * {
-    grid-column: span 12;
-}
+
 
 footer li {
     font-size: 1.5rem;
@@ -176,8 +192,58 @@ footer a:visited {
     .col-span-2 {
         display: flex;
     }
-   .col-span-6 {
+    .col-span-6 {
         display: flex;
+    }
+
    }
    
+
+
+.container {
+    display: grid;
+    gap: 0.25rem;
+    grid-template-columns: repeat(12, 1fr);
+    width: min(95%, 75rem);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container > * {
+    grid-column: span 12;
+}
+
+
+
+/***Cleaning***/
+
+.miloegg {
+    border-style: solid;
+    border-radius: 0.75rem;
+    margin: 0.5;
+    border-color: rgb(14, 90, 16);
+    padding: 1rem;
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    
+}
+
+.resource-food{
+    margin: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.resource-food:hover {
+    text-decoration: underline;
+}
+
+.groomingpics {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
 }

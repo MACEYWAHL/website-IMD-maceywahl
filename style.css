@@ -41,22 +41,23 @@ nav ul {
 
 
 nav a:link {
-    color: brown;
+    color: rgb(128, 13, 13);
     text-decoration: none;
     padding: 1rem;
     display: block;
     transition: ease-in-out 250ms;
 }
 
+
 nav a:visited {
-    color: lightsalmon;
+    color: rgb(67, 24, 4);
     text-decoration: none;
 
 }
 
 nav a:hover {
     background-color: rgb(230,175,135);
-    color: white;
+    color: rgb(29, 14, 14);
 }
 
 .why-care  {
@@ -111,6 +112,13 @@ p {
     padding: 0.5rem;
 }
 
+.col-span-4 .card {
+    box-shadow: 0 .125rem .5rem rgb(14, 90, 16);
+    border-radius: .75rem;
+    padding: 0.5rem;
+
+}
+
 .card h4{
     color: gray;
     font-family: "Kalam", cursive;
@@ -126,18 +134,23 @@ p {
     background-color: rgb(251, 255, 240);
 }
 
+.shopfood {
+    background-color: rgb(180, 214, 203);
+}
 
   /*****************************************/  
+
+
+
+
+
 
 footer {
     padding-top: 0px;
     padding-left: 1rem;
     color: black;
     background-color: rgb(253, 210, 216);
-
 }
-
-
 
 footer li {
     font-size: 1.5rem;
@@ -195,7 +208,9 @@ footer a:visited {
     .col-span-6 {
         display: flex;
     }
-
+    .col-span-4 {
+        display: flex;
+    }
    }
    
 
@@ -246,4 +261,73 @@ footer a:visited {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+}
+
+.grooming {
+    background-color:rgb(185, 197, 173);
+}
+
+/**Button**/
+
+.button {
+    text-decoration: none;
+    color: rgb(153, 148, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button a:hover {
+    background-color: rgb(236, 246, 147);
+
+}
+
+.button:link, .button:visited {
+    color: rgb(70, 104, 76);
+    background-color: rgb(245, 205, 182);
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(195, 110, 182);
+    padding: 0.5rem 1.75rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .25);
+    display: inline-block;
+    margin: 0.25rem .25rem .25rem .25rem;
+    transition: background-color 0.5s ease;
+}
+
+/*****Vet*****/
+
+.title-vet{
+    font-family: "Kalam", cursive;
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.vet-cost {
+    font-family: "Kalam", cursive;
+    margin: 1rem;
+    text-align: center;
+}
+
+.common-health {
+    font-family: "Kalam", cursive;
+    text-align: center;
+}
+
+.preyanimal {
+    background-color: rgb(179, 239, 219);
+}
+
+/****Bonding****/
+
+h3 {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    font-family: "Kalam", cursive;
+    text-align: center;
+
+}
+
+.behavior {
+    background-color: rgb(179, 239, 219);
 }

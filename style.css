@@ -56,7 +56,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    background-color: rgb(230,175,135);
+    background-color: rgb(218, 185, 161);
     color: rgb(29, 14, 14);
 }
 
@@ -84,7 +84,7 @@ h2 {
 }
 
 .warning {
-    background-color:rgb(185, 197, 173);
+    background-color:rgb(183, 188, 178);
     grid-column: span 12;
     padding: 1rem;
 }
@@ -135,7 +135,34 @@ p {
 }
 
 .shopfood {
-    background-color: rgb(180, 214, 203);
+    background-color: rgb(189, 196, 193);
+}
+
+.button-badfood {
+    text-decoration: none;
+    color: rgb(153, 148, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.button-badfood a:hover {
+    background-color: rgb(236, 246, 147);
+
+}
+
+.button-badfood:link, .button-badfood:visited {
+    color: rgb(70, 104, 76);
+    background-color: rgb(201, 217, 203);
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(117, 117, 127);
+    padding: 0.5rem 1.75rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .25);
+    display: inline-block;
+    margin: 0.25rem .25rem .25rem .25rem;
+    transition: background-color 0.5s ease;
+    border-radius: 0.5rem;
 }
 
   /*****************************************/  
@@ -264,7 +291,32 @@ footer a:visited {
 }
 
 .grooming {
-    background-color:rgb(185, 197, 173);
+    background-color:rgb(191, 193, 189);
+}
+
+.button-groom {
+    text-decoration: none;
+    color: rgb(153, 148, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button-groom a:hover {
+    background-color: rgb(236, 246, 147);
+
+}
+
+.button-groom:link, .button-groom:visited {
+    color: rgb(70, 104, 76);
+    background-color: rgb(196, 229, 201);
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(144, 137, 225);
+    padding: 0.5rem 1.75rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .25);
+    display: inline-block;
+    margin: 2rem;
+    transition: background-color 0.5s ease;
 }
 
 /**Button**/
@@ -329,5 +381,5 @@ h3 {
 }
 
 .behavior {
-    background-color: rgb(179, 239, 219);
+    background-color: rgb(198, 211, 206);
 }
